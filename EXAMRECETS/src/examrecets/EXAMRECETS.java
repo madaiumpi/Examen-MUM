@@ -27,8 +27,8 @@ public class EXAMRECETS {
                 case 1: ÁreaCuadrado(); break;
                 case 2: Árearectangulo(); break;
                 case 3: Áreacirculo(); break;
-                case 4: ÁreadelTriangulo(); break;default: 
-                JOptionPane.showMessageDialog(null,"Elige una opcion valida");
+                case 4: ÁreaTriangulo(); break;
+                default: JOptionPane.showMessageDialog(null,"Elige una opcion valida");
         }   
         }
  private static void ÁreaCuadrado() {
@@ -47,15 +47,29 @@ public class EXAMRECETS {
         JOptionPane.showMessageDialog(null,"Área Cuadrado");
         areaRectangulo =alturaRectangulo*baseRectangulo;
 
-       JOptionPane.showMessageDialog(null,"Area cuadrado = "+areaCuadrado);
+       JOptionPane.showMessageDialog(null,"Área rectángulo = "+areaRectangulo);
    }
-
-        double baseRectangulo=0;
-        int alturaRectangulo=0;
-        double areaRectangulo=alturaRectangulo*baseRectangulo;
-        int radioCirculo=0;
+    private static void Áreacirculo() {
+        double radioCirculo=0;
         double Pi=3.14;
-        double areaCirculo=(Pi * Math.pow(radioCirculo,2));
+        double areaCirculo;
+        JOptionPane.showMessageDialog(null,"Área Cuadrado");
+        areaCirculo =Pi *(radioCirculo*2);
+
+       JOptionPane.showMessageDialog(null,"Área rectángulo = "+areaCirculo);
+   }
+    private static void ÁreaTriangulo() {
+        double radioCirculo=0;
+        double Pi=3.14;
+        double areaCirculo;
+        JOptionPane.showMessageDialog(null,"Área Cuadrado");
+        areaCirculo =Pi *(radioCirculo*2);
+
+       JOptionPane.showMessageDialog(null,"Área rectángulo = "+areaCirculo);
+   }
+    
+    
+    
         int baseTriangulo=0;
         int alturaTriangulo=0;
         int areaTriangulo=((baseTriangulo*alturaTriangulo)/2);
