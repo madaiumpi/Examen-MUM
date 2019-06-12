@@ -32,47 +32,43 @@ public class EXAMRECETS {
         }   
         }
  private static void ÁreaCuadrado() {
-        int alturaCuadrado=0;
+        double alturaCuadrado;
         double areaCuadrado;
-        JOptionPane.showMessageDialog(null,"Área Cuadrado");
+        alturaCuadrado=Integer.parseInt(JOptionPane.showInputDialog(null,"Altura del cuadrado: "));
         areaCuadrado =alturaCuadrado*2;
-
+        
        JOptionPane.showMessageDialog(null,"Area cuadrado = "+areaCuadrado);
    }
  
   private static void Árearectangulo() {
-        double baseRectangulo=0;
-        double alturaRectangulo=0;
+        double baseRectangulo;
+        double alturaRectangulo;
         double areaRectangulo;
-        JOptionPane.showMessageDialog(null,"Área Rectangulo");
+        baseRectangulo=Integer.parseInt(JOptionPane.showInputDialog(null,"Base del Rectangulo: "));
+        alturaRectangulo=Integer.parseInt(JOptionPane.showInputDialog(null,"Altura del Rectangulo: "));
         areaRectangulo =alturaRectangulo*baseRectangulo;
-
+        
        JOptionPane.showMessageDialog(null,"Área Rectangulo = "+areaRectangulo);
    }
+  
     private static void Áreacirculo() {
-        double radioCirculo=0;
+        double radioCirculo;
         double Pi=3.14;
         double areaCirculo;
-        JOptionPane.showMessageDialog(null,"Área Circulo");
+        radioCirculo=Integer.parseInt(JOptionPane.showInputDialog(null,"Radio del circulo: "));
         areaCirculo =Pi *(radioCirculo*2);
-
+        
        JOptionPane.showMessageDialog(null,"Área Circulo = "+areaCirculo);
    }
+    
     private static void ÁreaTriangulo() {
-        double baseTriangulo=0;
+        double baseTriangulo;
         double alturaTriangulo=0;
         double areaTriangulo;
-        JOptionPane.showMessageDialog(null,"Área Triángulo");
+        baseTriangulo=Integer.parseInt(JOptionPane.showInputDialog(null,"Base Triangulo: "));
+        alturaTriangulo=Integer.parseInt(JOptionPane.showInputDialog(null,"Altura Triangulo: "));
         areaTriangulo =(baseTriangulo*alturaTriangulo)/2;
 
        JOptionPane.showMessageDialog(null,"Área Triángulo = "+areaTriangulo);
    }  
     }
-        // TODO code application logic here
-        // Todo en una sola clase
-        /* Resultados calculadoos
-        Cálculo del Área Cuadrado
-        Cálculo del¨Área rectangulo
-        Cálculo del áreacirculo
-        Cálculo del Área del Triangulo
-        */
