@@ -25,9 +25,9 @@ public class EXAMRECETS {
         opcion=Integer.parseInt(op);
         switch(opcion){
                 case 1: AreadelCuadrado(); break;
-                case 2: Árearectangulo(); break;
-                case 3: Áreacirculo(); break;
-                case 4: ÁreaTriangulo(); break;
+                case 2: AreaDelRectangulo(); break;
+                case 3: ÁreadelCirculo(); break;
+                case 4: ÁreaDelTriangulo(); break;
                 default: JOptionPane.showMessageDialog(null,"Elige una opcion valida");
         }   
         }
@@ -40,7 +40,7 @@ public class EXAMRECETS {
        JOptionPane.showMessageDialog(null,"Area cuadrado = "+areaCuadrado);
    }
  
-  private static void Árearectangulo() {
+  private static void AreaDelRectangulo() {
         double baseRectangulo;
         double alturaRectangulo;
         double areaRectangulo;
@@ -51,7 +51,7 @@ public class EXAMRECETS {
        JOptionPane.showMessageDialog(null,"Área Rectangulo = "+areaRectangulo);
    }
   
-    private static void Áreacirculo() {
+    private static void ÁreadelCirculo() {
         double radioCirculo;
         double Pi=3.14;
         double areaCirculo;
@@ -61,7 +61,7 @@ public class EXAMRECETS {
        JOptionPane.showMessageDialog(null,"Área Circulo = "+areaCirculo);
    }
     
-    private static void ÁreaTriangulo() {
+    private static void ÁreaDelTriangulo() {
         double baseTriangulo;
         double alturaTriangulo=0;
         double areaTriangulo;
