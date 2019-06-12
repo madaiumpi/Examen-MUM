@@ -8,7 +8,7 @@ package examrecets;
 import javax.swing.JOptionPane;
 /**
  *
- * @author Madai
+ * @author Madai Umpiérrez Marrero
  */
 public class EXAMRECETS {
     /**
