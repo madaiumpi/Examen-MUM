@@ -18,10 +18,10 @@ public class EXAMRECETS {
         int opcion=0; String op="";
 
         op=JOptionPane.showInputDialog("Seleciona una operacion: \n"
-            +"1 para Suma\n"
-            +"2 para Resta\n"
-            +"3 para Multiplicacion\n"
-            +"4 para Division\n");
+            +"1 para ÁreaCuadrado\n"
+            +"2 para Árearectangulo\n"
+            +"3 para Áreacirculo\n"
+            +"4 para ÁreaTriangulo\n");
         opcion=Integer.parseInt(op);
         switch(opcion){
                 case 1: ÁreaCuadrado(); break;
@@ -44,39 +44,29 @@ public class EXAMRECETS {
         double baseRectangulo=0;
         double alturaRectangulo=0;
         double areaRectangulo;
-        JOptionPane.showMessageDialog(null,"Área Cuadrado");
+        JOptionPane.showMessageDialog(null,"Área Rectangulo");
         areaRectangulo =alturaRectangulo*baseRectangulo;
 
-       JOptionPane.showMessageDialog(null,"Área rectángulo = "+areaRectangulo);
+       JOptionPane.showMessageDialog(null,"Área Rectangulo = "+areaRectangulo);
    }
     private static void Áreacirculo() {
         double radioCirculo=0;
         double Pi=3.14;
         double areaCirculo;
-        JOptionPane.showMessageDialog(null,"Área Cuadrado");
+        JOptionPane.showMessageDialog(null,"Área Circulo");
         areaCirculo =Pi *(radioCirculo*2);
 
-       JOptionPane.showMessageDialog(null,"Área rectángulo = "+areaCirculo);
+       JOptionPane.showMessageDialog(null,"Área Circulo = "+areaCirculo);
    }
     private static void ÁreaTriangulo() {
-        double radioCirculo=0;
-        double Pi=3.14;
-        double areaCirculo;
-        JOptionPane.showMessageDialog(null,"Área Cuadrado");
-        areaCirculo =Pi *(radioCirculo*2);
+        double baseTriangulo=0;
+        double alturaTriangulo=0;
+        double areaTriangulo;
+        JOptionPane.showMessageDialog(null,"Área Triángulo");
+        areaTriangulo =(baseTriangulo*alturaTriangulo)/2;
 
-       JOptionPane.showMessageDialog(null,"Área rectángulo = "+areaCirculo);
-   }
-    
-    
-    
-        int baseTriangulo=0;
-        int alturaTriangulo=0;
-        int areaTriangulo=((baseTriangulo*alturaTriangulo)/2);
-        System.out.println(areaCuadrado);
-        System.out.println(areaRectangulo);
-        System.out.println(areaCirculo);
-        System.out.println(areaTriangulo);  
+       JOptionPane.showMessageDialog(null,"Área Triángulo = "+areaTriangulo);
+   }  
     }
         // TODO code application logic here
         // Todo en una sola clase
