@@ -24,14 +24,14 @@ public class EXAMRECETS {
             +"4 para ÁreaTriangulo\n");
         opcion=Integer.parseInt(op);
         switch(opcion){
-                case 1: ÁreaCuadrado(); break;
+                case 1: AreadelCuadrado(); break;
                 case 2: Árearectangulo(); break;
                 case 3: Áreacirculo(); break;
                 case 4: ÁreaTriangulo(); break;
                 default: JOptionPane.showMessageDialog(null,"Elige una opcion valida");
         }   
         }
- private static void ÁreaCuadrado() {
+ private static void AreadelCuadrado() {
         double alturaCuadrado;
         double areaCuadrado;
         alturaCuadrado=Integer.parseInt(JOptionPane.showInputDialog(null,"Altura del cuadrado: "));
